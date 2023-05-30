@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+}
+.gradient-background {
+  background: linear-gradient(to bottom, #a7cffc, #e6e6e6);
+}
+
+header {
+  
+  padding: 20px 0;
+}
+
+.container {
+  
+  padding: 20px;
+  height: 100vh;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.content {
+  margin: 10px;
+  padding: 0 10px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#texto {
+  border: solid 1px #80b9fa;
+  background: linear-gradient(to bottom, #a7cffc, #e6e6e6);
+  padding: 20px;
+  width: 90%;
+  height: 90%;
+  min-height: 70%;
+  font-size: 18px;
+}
+
+.legenda {
+  margin: 10px;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.btn {
+  color: rgb(209, 203, 203);
+  margin-top: 10px;
+  background-color: rgb(10, 80, 192);
+  font-size: 20px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: green;
+}
+
+.sidebar {
+  background: linear-gradient(to bottom, #a7cffc, #e6e6e6);
+  border: 2px solid  #80b9fa;
+  border-radius: 30px;
+  padding: 10px;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.psidebar {
+  font-size: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+  max-height: 100%;
+  overflow: auto;
+}
+
+
+.nenhumaMensagem {
+  width: 90%;
+}
+.imgMsgSidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer {
+  color: white;
+  text-align: center;
+  background-image: url("imagens/bg.jpg");
+  padding: 40px 0;
+}

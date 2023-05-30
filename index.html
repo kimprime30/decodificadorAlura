@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="gradient-background">
+  <header id="header">
+    <div class="caixa">
+      <h1><img src="imagens/logoAlura.png" alt="Logo alura" /></h1>
+    </div>
+  </header>
+  <div class="container">
+    <section class="content" id="content">
+      <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite seu texto aqui"></textarea>
+      <div class="legenda">
+        <p><img src="imagens/Vector.png" alt=""> Digite apenas letras minúsculas e sem acento.</p>
+      </div>
+      <div class="botoesTextarea">
+        <input class="btn" id="criptografar" type="button" value="Criptografar">
+        <input class="btn" id="descriptografar" type="button" value="Descriptografar">
+      </div>
+    </section>
+    <section class="sidebar" id="sidebar">
+      <div class="imgMsgSidebar">
+        <img class="nenhumaMensagem" id="nenhumaMensagem" src="imagens/semMensagens.png"
+          alt="boneco com uma lupa que nã o encontrou nenhuma mensagem">
+        <p class="psidebar"> Nenhuma mensagem encontrada</p>
+      </div>
+      <div class="btnSidebar">
+        <input class="btn" id="copiar" type="button" value="Copiar">
+      </div>
+    </section>
+   
+  </div>
+  <footer id="footer">
+    <p class="copyrigth">&copy; Copyrigth Decodificador Alura - 2023</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
